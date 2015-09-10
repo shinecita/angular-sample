@@ -1,0 +1,122 @@
+{ 
+  "games" : [  
+    {
+     "id" : "dota",
+     "name" : "Dota AllStars",
+     "attributes" : [
+        {
+            "name" : "Heroes Support",
+            "items" : [
+               {
+                "name" : "Help carry to farm",
+				"results": {
+					"reports": 3.73,
+					"colleagues": 4,
+					"all": 3.93,
+					"self": 3,
+					"others": 4.24
+			      }
+		       }, 
+		      {
+		         "name" : "Placing Wards",
+ 		         "results": {
+				    	"reports": 3.73,
+					    "colleagues": 4,
+					    "all": 2,
+					    "self": 3,
+					    "others": 4.24
+			       }
+ 		      },
+ 		     {
+ 		       "name" : "Supporting Items",
+ 		       "results": {
+					"reports": 3.73,
+					"colleagues": 4,
+					"all": 4.80,
+					"self": 3,
+					"others": 4.24
+			     }
+ 		      }
+ 		    ]
+ 		 }, 
+        {
+           "name" : "Heroes Carry" ,
+           "items" : [     
+                {
+                  "name" :   "Farmeando",
+				  "results": {
+					"reports": 3.73,
+					"colleagues": 4,
+					"all": 1.5,
+					"self": 3,
+					"others": 4.24
+			      }
+			   }
+			]
+       }
+     ]
+   } ,
+    {
+      "id" : "cod",
+      "name" : "Call of Duty",
+      "attributes" : [
+         {
+            "name" : "Aiming",
+            "items": [ 
+              {
+                 "name" : "M16",
+				 "results": {
+					    "reports": 3.73,
+					    "colleagues": 4,
+					    "all": 4.2,
+					    "self": 3,
+					    "others": 4.24
+			       }
+		       }
+		     ]
+           }
+      ]
+   },
+    {
+      "id": "wow",
+      "name": "World of Warcraft",
+      "attributes": [{
+        "name" : "Leveando Rapidamente",
+        "items" : [{
+                "name": "Main Char",
+				"results": {
+					"reports": 3.73,
+					"colleagues": 4,
+					"all": 5,
+					"self": 3,
+					"others": 4.24
+			    }
+		    },
+		    {
+                "name": "Alter Character",
+				"results": {
+					"reports": 3.73,
+					"colleagues": 4,
+					"all": 3.4,
+					"self": 3,
+					"others": 4.24
+			    }
+		    }
+		    ]
+       },
+        {
+        "name"  : "Haciendo Parties",
+        "items": [{ 
+             "name" : "PVP",
+           	 "results": {
+					"reports": 3.73,
+					"colleagues": 4,
+					"all": 2.9,
+					"self": 1,
+					"others": 4.24
+			    }
+           }]
+        }]
+      }
+  ]
+}
